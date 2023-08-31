@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  function closeModal(id) {
+  function closeModal() {
     setPoolId(null);
     setIsOpen(false);
   }
