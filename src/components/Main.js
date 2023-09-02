@@ -88,10 +88,8 @@ export default function Main() {
     <main
       className={`flex min-h-screen flex-col items-center lg:justify-around p-24 ${inter.className}`}
     >
-      <h1 className="text-2xl font-bold">Sistema de pesquisas</h1>
-
       <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
-        {!polls && (
+        {polls.length === 0 && (
           <h2 className={`mb-3 text-2xl font-semibold group text-center`}>
             Não existem pesquisas cadastradas
           </h2>
