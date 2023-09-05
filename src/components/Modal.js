@@ -8,7 +8,7 @@ export default function Modal({ isOpen, closeModal, poll }) {
 
   async function setVote(pollId, label) {
     const client = new ApolloClient({
-      uri: "http://localhost:4000/",
+      uri: "https://pucminas-ws-gq.onrender.com/graphql",
       cache: new InMemoryCache(),
     });
 

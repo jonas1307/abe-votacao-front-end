@@ -2,7 +2,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import Main from "../components/Main";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/",
+  uri: "https://pucminas-ws-gq.onrender.com/graphql",
   cache: new InMemoryCache(),
 });
 
