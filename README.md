@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Trabalho prático da disciplina de Arquitetura de BackEnd - Pós-Graduação em Arquitetura de Soluções da **PUC Minas**
+
+Esse projeto foi desenvolvido utilizando Next.js
+
+Nome dos integrantes do grupo:
+
+- Leandro Moreira da Silva
+- Leon Wagner Farias de Souza
+- Jonas Lima de Amorim
+- Junia Almeida Matos Boechat
+- Samara Luiza da Silva
+
+
 ## Getting Started
 
 First, run the development server:
